@@ -1,3 +1,6 @@
+#menu-desktop {display: block;}
+#menu-mobile {display: none;}
+
 #container {
   margin: 0 auto;
 }
@@ -59,6 +62,7 @@ nav ul ul li {
 
 body {
 background-color: #2D2515;
+font-family: sans-serif;
 }
 
 h1 {
@@ -69,16 +73,17 @@ color: #FB7CF3;
 
 h2 {
 font-family: Brush Script MT, sans-serif;
-color: #20A1EE;
+color: #3AB195;
 border-bottom: 2px solid black;
 }
 
-h3, {
+h3 {
 font-weight: bold;
+color: #20A1EE;
 }
 
 h4, h5, h6 {
-color: #3AB195;
+color: #20A1EE;
 }
 
 p {
@@ -97,11 +102,24 @@ a {
 color: #2EC4B6;
 }
 
-.column {
+img {
+width: 50%;
+}
+
+.column1 {
 color: #DDCAD9;
 float: left;
 width: 45%;
 padding: 5px;
+background-size:100%
+}
+
+.column2 {
+color: #DDCAD9;
+float: left;
+width: 45%;
+padding: 5px;
+background-size:100%
 }
 
 .row::after {
@@ -109,4 +127,63 @@ color: #DDCAD9;
 content: "";
 clear: both;
 display: table;
+background-size:100%
+}
+
+#banner {
+  width: 100%;
+  background-image: url(images/bannersplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  backgorund-attachment: fixed;
+}
+
+@media screen and (max-width: 421px) {
+
+#menu-desktop {display: none;}
+#menu-mobile {display: block;}
+
+#container {
+  margin: 0 auto;
+}
+
+h1 span {
+  color: #2D2515;
+}
+ 
+nav {
+  font-family: Brush Script MT, sans-serif;
+  font-size: 100%;
+  color: #FF3366;
+  background-color: #2D2515;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  } 
+nav ul li {
+  background-color: #2D2515;
+  display:inline-block;
+  }
+nav a {
+  font-family: Brush Script MT, sans-serif;
+  font-size:90%;
+  color:#FB7CF3;
+  line-height: 20px;
+  text-decoration:none;
+  display:inline-block;
+  padding:10px; 
+}
+
+img {
+width: 100%;
+}
+
+.column1,
+.column2{
+  width: 95%;
+            }
+        }
 }
