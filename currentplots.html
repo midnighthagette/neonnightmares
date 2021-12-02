@@ -1,49 +1,49 @@
 <html>
 <head>
 <title>Current Plots</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <link type="text/css" rel="stylesheet" href="nn.css">
-<div id="container">
-    <nav>
+<nav>
+<div id="menu-desktop">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="rules.html">Rules</a>
+	<ul>
+           <li><a href="creationrules.html">Character Creation Rules</a></li>
+           <li><a href="gameplayrules.html">Gameplay Rules</a></li>
+           <li><a href="otherrules.html">Restricted/Banned/Capped</a></li>
+        </ul></li>
+        <li><a href="setting.html">Setting</a>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="rules.html">Rules</a>
-            <ul>
-                <li><a href="creationrules.html">Character Creation Rules</a></li>
-                <li><a href="gameplayrules.html">Gameplay Rules</a></li>
-                <li><a href="otherrules.html">Other Rules</a></li>
-            </ul>        
-            </li>
-            <li><a href="setting.html">Setting</a>
-               <ul>
-                <li>Current Plots
-			<ul>
-			<li><a href="awakenedherald.html">The Awakened Herald</a></li>
-			<li><a href="mootminutes.html">The Moot Minutes</a></li>
-			<li><a href="vegaspost.html">The Vegas Post</a></li>
-			<li><a href="deadlink.html">The Orphean Report</a></li>
-			</ul></li>
-                <li><a href="notableloc.html">Notable Locations</a>
-			<ul>
-			<li><a href="power.html">Places of Power</a></li>
-			<li><a href="special.html">Special Places</a></li>
-			</ul></li>
-                <li><a href="npcbios.html">NPC Bios</a>
-			<ul>
-			<li><a href="magenpc.html">Mage NPCs</a>
+           <li><a href="currentplots.html">Current Plots</a>
+		<ul>
+		<li><a href="awakenedherald.html">The Awakened Herald</a></li>
+		<li><a href="mootminutes.html">The Moot Minutes</a></li>
+		<li><a href="deadlink.html">The Orphean Report</a></li>
+		<li><a href="vegaspost.html">The Vegas Post</a></li>
+		</ul></li>
+           <li><a href="notableloc.html">Notable Locations</a>
+		<ul>
+		<li><a href="power.html">Places of Power</a></li>
+		<li><a href="special.html">Special Places</a></li>
+		</ul></li>
+           <li><a href="npcbios.html">NPC Bios</a>
+		<ul>
+		<li><a href="magenpc.html">Mage NPCs</a>
 			<ul>
 			<li><a href="torchnpc.html">Torchbearers</a></li>
 			<li><a href="tradnpc.html">Traditions</a></li>
 			<li><a href="indienpc.html">Other Mages</a></li>
-			</ul></li>
-			<li><a href="deadlink.html">Orphean NPCs</a></li>
-			<li><a href="shifternpc.html">Shifter NPCs</a>
+		</ul></li>
+		<li><a href="deadlink.html">Orphean NPCs</a></li>
+		<li><a href="shifternpc.html">Shifter NPCs</a>
 			<ul>
 			<li><a href="garounpc.html">Garou</a></li>
 			<li><a href="betenpc.html">Fera & Independents</a></li>
 			<li><a href="evilnpc.html">Antagonists</a></li>
 			</ul></li>
-			<li><a href="othernpc.html">Other NPCs</a></li>
-			</ul></li>
+		<li><a href="othernpc.html">Other NPCs</a></li>
+		</ul></li>
 	       </ul>
              <li><a href="creation.html">Creation Guides</a>
                <ul>
@@ -54,22 +54,40 @@
 	       </ul>
 	     <li><a href="bluebooking.html">Bluebooking</a></li>
             </ul>
-        </ul>
-    </nav> 
+</ul>
 </div>
+<div id="menu-mobile">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="setting.html">Setting</a></li>
+</ul><ul>
+           <li><a href="currentplots.html">Current Plots</a></li>
+	   <li><a href="notableloc.html">Notable Locations</a></li>
+	   <li><a href="npcbios.html">NPC Bios</a></li>
+</ul><ul>
+		<li><a href="awakenedherald.html">Awakened Herald</a></li>
+		<li><a href="mootminutes.html">Moot Minutes</a></li>
+		<li><a href="deadlink.html">Orphean Report</a></li>
+		<li><a href="vegaspost.html">Vegas Post</a></li>
+</ul>
+</div>
+</nav>
+<center>
+<div id="banner">
+<h1>Neon Nightmares</h1>
+<p> 
+<div id="banner"></div>
+</p>
+</div>
+</center>
 </head>
 <body>
 
-<center>
-<h1>Neon Nightmares</h1>
-<p> 
-<img src="images/bannersplash.jpg" alt="Vegas Skyline">
-</p>
-</center>
 
-<center><h2>General Plotlines</h2>
-<img src="images/spring.jpg" alt="Deep Below"></img></center>
-<p> 
+<center><h2>General Plotlines</h2></center>
+<div class="row">
+  <div class="column1"><img src="images/spring.jpg" alt="Deep Below"></img></div>
+<div class="column2">
 <ul>
 <li><u>The Big Spring</u>:</li>
 <ul>
@@ -89,11 +107,12 @@
 <li>Worse yet, all this increased activity has drawn the attention of the mortal authorities in the form of FIRSTLIGHT and their newly found allies within Project Twilight and the Society of Leopold.</li>
 </ul>
 </ul>
-</p>
+</p></div></div>
 
-<center><h2>Mage-Focused Plotlines</h2>
-<img src="images/magic.jpg" alt="Magic!"></img></center>
-<p> 
+<center><h2>Mage-Focused Plotlines</h2></center>
+<div class="row">
+  <div class="column1"><img src="images/magic.jpg" alt="Magic!"></img></div>
+<div class="column2"> 
 <ul>
 <li><u>A Crack in the Monolith</u>:</li>
 <ul>
@@ -115,11 +134,12 @@
 <li>She has recently acquired the MGM Grand casino resort and has converted it to her own personal, Greek-themed casino named <i>Logog Phronesis</i>.</li>
 </ul>
 </ul>
-</p>
+</p></div></div>
 
-<center><h2>Shifter-Focused Plotlines</h2>
-<img src="images/garou.jpg" alt="Grr!"></img></center>
-<p> 
+<center><h2>Shifter-Focused Plotlines</h2></center>
+<div class="row">
+  <div class="column1"><img src="images/garou.jpg" alt="Grr!"></img></div>
+<div class="column2">  
 <ul>
 <li><u>The Dutchman</u>:</li>
 <ul>
@@ -140,7 +160,7 @@
 <li>Current evidence indicates that this recent upswing in attacks is the direct result of a pack of Black Spirals who have taken particular interest in polluting sites in the area. Their ultimate goal is, as of yet, still unknown.</li>
 </ul>
 </ul>
-</p>
+</p></div></div>
 
 </body>
 </html>
