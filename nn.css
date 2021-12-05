@@ -9,7 +9,7 @@ h1 span {
  
 nav {
   font-family: 'Warnes', cursive;
-  font-size:12px;
+  font-size:20px;
   color: #FF3366;
   background-color: #2D2515;
 }
@@ -26,7 +26,7 @@ nav ul li {
   }
 nav a {
   font-family: 'Warnes', cursive;
-  font-size:12px;
+  font-size:20px;
   color:#FB7CF3;
   line-height: 60px;
   text-decoration:none;
