@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
+
 #menu-desktop {display: block;}
 #menu-mobile {display: none;}
 
@@ -9,10 +11,11 @@ h1 span {
 }
  
 nav {
-  font-family: Brush Script MT, sans-serif;
-  font-size:20px;
+  font-family: 'Warnes', cursive;
+  font-size:12px;
   color: #FF3366;
   background-color: #2D2515;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 nav ul {
   list-style: none;
@@ -26,13 +29,14 @@ nav ul li {
   display:inline-block;
   }
 nav a {
-  font-family: Brush Script MT, sans-serif;
-  font-size:20px;
+  font-family: 'Warnes', cursive;
+  font-size:12px;
   color:#FB7CF3;
   line-height: 60px;
   text-decoration:none;
   display:block;
   padding:0 10px; 
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 nav a:hover { 
   background-color: #685A42; 
@@ -66,13 +70,14 @@ font-family: sans-serif;
 }
 
 h1 {
-font-family: Brush Script MT, sans-serif;
+font-family: 'Warnes', cursive;
 font-size: 50px;
 color: #FB7CF3;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 
 h2 {
-font-family: Brush Script MT, sans-serif;
+font-family: 'Warnes', cursive;
 color: #3AB195;
 border-bottom: 2px solid black;
 }
@@ -133,7 +138,7 @@ background-size:100%
 #banner {
   width: 100%;
   background-image: url(images/bannersplash.jpg);
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   backgorund-attachment: fixed;
 }
@@ -152,7 +157,7 @@ h1 span {
 }
  
 nav {
-  font-family: Brush Script MT, sans-serif;
+  font-family: 'Warnes', cursive;
   font-size: 100%;
   color: #FF3366;
   background-color: #2D2515;
@@ -168,7 +173,7 @@ nav ul li {
   display:inline-block;
   }
 nav a {
-  font-family: Brush Script MT, sans-serif;
+  font-family: 'Warnes', cursive;
   font-size:90%;
   color:#FB7CF3;
   line-height: 20px;
