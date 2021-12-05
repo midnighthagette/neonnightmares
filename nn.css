@@ -1,3 +1,7 @@
+@font-face {
+  font-family: neon;
+  src: url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
+
 #menu-desktop {display: block;}
 #menu-mobile {display: none;}
 
@@ -9,7 +13,7 @@ h1 span {
 }
  
 nav {
-  font-family: Brush Script MT, sans-serif;
+  font-family: neon, sans-serif;
   font-size:20px;
   color: #FF3366;
   background-color: #2D2515;
@@ -26,7 +30,7 @@ nav ul li {
   display:inline-block;
   }
 nav a {
-  font-family: Brush Script MT, sans-serif;
+  font-family: neon, sans-serif;
   font-size:20px;
   color:#FB7CF3;
   line-height: 60px;
@@ -66,13 +70,13 @@ font-family: sans-serif;
 }
 
 h1 {
-font-family: Brush Script MT, sans-serif;
+font-family: neon, sans-serif;
 font-size: 50px;
 color: #FB7CF3;
 }
 
 h2 {
-font-family: Brush Script MT, sans-serif;
+font-family: neon, sans-serif;
 color: #3AB195;
 border-bottom: 2px solid black;
 }
