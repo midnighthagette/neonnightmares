@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
+ 
+#menu-desktop {display: block;}
+#menu-mobile {display: none;}
+
+h1 span {
+  color: #E6E6E3;
+}
+ 
+nav {
+  font-family: sans-serif;
+  font-size:20px;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  
+  } 
+nav ul li {
+  background-color: #E6E6E3;
+  display:inline-block;
+  }
+nav a {
+  font-family: sans-serif;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+  display:block;
+  padding:0 10px; 
+}
+nav a:hover { 
+  background-color: #E6E6E3;
+}
+nav ul ul { 
+  top: 60px;  
+  position: absolute;
+  display: none;
+} 
+nav ul li:hover > ul {
+  display:inherit;
+} 
+nav ul ul li {
+  width:230px;
+  display:list-item;
+  float:none;
+  position: relative;
+}
+nav ul ul ul li {
+  left:230px;
+  position: relative;
+  top:-60px; 
+}
+nav ul ul li {
+  border: 1px solid white;
+} 
+
+body {
+font-family: sans-serif;
+background-color: #E6E6E3;
+}
+
+h1 {
+font-family: sans-serif;
+font-size: 50px;
+color: #E6E6E3;
+}
+
+h2 {
+font-family: sans-serif;
+border-bottom: 2px solid black;
+}
+
+h3 {
+font-weight: bold;
+}
+
+
+img {
+width: 50%;
+}
+
+.column1 {
+color: #DDCAD9;
+float: left;
+width: 45%;
+padding: 5px;
+background-size:100%
+}
+
+.column2 {
+color: #DDCAD9;
+float: left;
+width: 45%;
+padding: 5px;
+background-size:100%
+}
+
+.row::after {
+color: #DDCAD9;
+content: "";
+clear: both;
+display: table;
+background-size:100%
+}
+
+#banner {
+  width: 100%;
+  background-image: url(images/bannersplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  backgorund-attachment: fixed;
+}
+
+@media screen and (max-width: 421px) {
+
+#menu-desktop {display: none;}
+#menu-mobile {display: block;}
+
+#container {
+  margin: 0 auto;
+}
+
+h1 span {
+  color: #D3D3D3;
+}
+ 
+nav {
+  font-family: sans-serif;
+  font-size: 100%;
+  background-color: #D3D3D3;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  } 
+nav ul li {
+  background-color: #D3D3D3;
+  display:inline-block;
+  }
+nav a {
+  font-family: sans-serif;
+  font-size:90%;
+  color:#D3D3D3;
+  line-height: 20px;
+  text-decoration:none;
+  display:inline-block;
+  padding:10px; 
+}
+
+img {
+width: 100%;
+}
+
+.column1,
+.column2{
+  width: 95%;
+            }
+        }
+}
