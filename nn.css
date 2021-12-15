@@ -105,6 +105,10 @@ a {
 color: #2EC4B6;
 }
 
+img {
+max-width: 500px;
+}
+
 .column1 {
 color: #DDCAD9;
 float: left;
