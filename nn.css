@@ -93,9 +93,15 @@ p {
 color: #DDCAD9;
 }
 
-ul{
-color: #DDCAD9;
+ul li {
+  color: #DDCAD9;
+  margin: 10px 0;
 }
+
+ul li::marker {
+     color: #20A1EE;
+     font-size: 1.2em;
+ }
 
 ol{
 color: #DDCAD9;
